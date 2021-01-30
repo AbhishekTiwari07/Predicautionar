@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <form action = "" class="mt-5">
+        <fieldset>
+        <legend>Diabetes Disease Test Form</legend><br>
+        <div class="card card-body" >
+            <div class="form-group  row">
+                <div class="col-sm-3">
+                    <label for="age">Age</label>
+                    <input type="number" class="form-control" id="age" name="age" required>
+                </div>
+                <div class="col-sm-3">
+                    <label for="sex">Sex</label>
+                    <select class="form-control" id="sex"  name="sex" required>
+                        <option disabled selected value> -- Select an Option -- </option>
+                        <option value = "0">Male</option>
+                        <option value = "1">Female</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="form-group  row">
+                <div class="col-sm">
+                    <label for="trestbps">Pregnancies</label>
+                    <input type="number" class="form-control" id="pregnancies" name="pregnancies"  required>
+                </div>
+                <div class="col-sm">
+                    <label for="trestbps">Glucose</label>
+                    <input type="number" class="form-control" id="glucose" name="glucose"  required>
+                </div>
+                <div class="col-sm">
+                    <label for="chol">Blood Pressure</label>
+                    <input type="number" class="form-control" id="bp" name="bp" required>
+                </div>
+            </div>
+            <br>
+            <div class="form-group row">
+                <div class="col-sm">
+                    <label for="thalach">Insulin</label>
+                    <input type="number" class="form-control" id="insulin" name="insulin" required>
+                </div>
+                <div class="col-sm">
+                    <label for="exang">Skin Thickness</label>
+                    <input type="number" step="any" class="form-control" id="st" name="st" required>
+                </div>
+            </div>
+            <br>
+            <div id ="result">
+                <strong style="color:red">{{result}}</strong>
+            </div>
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
