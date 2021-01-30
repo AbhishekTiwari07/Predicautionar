@@ -1,3 +1,4 @@
+const result = document.getElementById("result")
 const fetchinfo = (obj)=>{
     obj = JSON.stringify(obj);
     fetch('http://localhost:3000/req?info='+obj).then((res) => {
@@ -6,6 +7,11 @@ const fetchinfo = (obj)=>{
                 console.log(error)
             else {
                 console.log(data.result)
+                if(data.result==0)
+                    result.innerHTML = '<p>No Risk</p>'
+                else if(data.result==1){
+                    result.innerHTML = '<p>Risk</p>'
+                }
             }
         })
     })

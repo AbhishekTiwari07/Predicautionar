@@ -35,7 +35,20 @@ function initializeClock(id, endtime) {
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
     if(t.total >= 23*3600+60*60 && counter == 0){
-      console.log("email sent!")
+      // function sendEmail() { 
+      //   Email.send({ 
+      //     Host: "smtp.gmail.com", 
+      //     Username: "sender@email_address.com", 
+      //     Password: "Enter your password", 
+      //     To: 'receiver@email_address.com', 
+      //     From: "sender@email_address.com", 
+      //     Subject: "Sending Email using javascript", 
+      //     Body: "Well that was easy!!", 
+      //   }) 
+      //     .then(function (message) { 
+      //       alert("mail sent successfully") 
+      //     }); 
+      // }
     }
     
     if (t.total <= 0) {

@@ -40,7 +40,7 @@ function topFunction() {
 locate.addEventListener('click', ()=> {
     let str = ""
     str += `
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1rRQMdfefBbctMI0sjhvjlFaBD4EzEbvY" width="640" height="480"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d55923.177560818694!2d80.92998711491155!3d26.836892888147844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shospitals!5e1!3m2!1sen!2sin!4v1612035761842!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     `
     down.innerHTML = str
 })

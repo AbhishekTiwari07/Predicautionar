@@ -4,7 +4,10 @@ body{
   margin: 0;
   padding: 0;
   text-align: center;
-  background: rgba(51, 255, 0, 0.658);
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("/images/3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 769px;
   font-family: sans-serif;
   font-weight: 100;
   overflow: hidden;

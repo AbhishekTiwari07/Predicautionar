@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action = "" class="mt-5">
+    <form class="mt-5">
         <fieldset>
         <legend>Diabetes Disease Test Form</legend><br>
         <div class="card card-body" >
@@ -29,35 +29,46 @@
             <br>
             <div class="form-group  row">
                 <div class="col-sm">
-                    <label for="trestbps">Pregnancies</label>
+                    <label for="pregnancies">Pregnancies</label>
                     <input type="number" class="form-control" id="pregnancies" name="pregnancies"  required>
                 </div>
                 <div class="col-sm">
-                    <label for="trestbps">Glucose</label>
+                    <label for="glucose">Glucose</label>
                     <input type="number" class="form-control" id="glucose" name="glucose"  required>
                 </div>
                 <div class="col-sm">
-                    <label for="chol">Blood Pressure</label>
+                    <label for="bp">Blood Pressure</label>
                     <input type="number" class="form-control" id="bp" name="bp" required>
                 </div>
             </div>
             <br>
             <div class="form-group row">
                 <div class="col-sm">
-                    <label for="thalach">Insulin</label>
+                    <label for="insulin">Insulin</label>
                     <input type="number" class="form-control" id="insulin" name="insulin" required>
                 </div>
                 <div class="col-sm">
-                    <label for="exang">Skin Thickness</label>
+                    <label for="st">Skin Thickness</label>
                     <input type="number" step="any" class="form-control" id="st" name="st" required>
+                </div>
+                <div class="col-sm">
+                    <label for="bmi">BMI</label>
+                    <input type="number" class="form-control" id="bmi" name="bmi" required>
+                </div>
+                <div class="col-sm">
+                    <label for="dpf">Diabetes Pedigree Function</label>
+                    <input type="number" step="any" class="form-control" id="dpf" name="dpf" required>
                 </div>
             </div>
             <br>
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Result">
+            </div>
             <div id ="result">
-                <strong style="color:red">{{result}}</strong>
             </div>
         </div>
     </fieldset>
     </form>
 </body>
+<script src="./script/dib.js"></script>
 </html>
