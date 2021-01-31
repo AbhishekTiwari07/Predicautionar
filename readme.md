@@ -1,5 +1,5 @@
 <p align="center"><img src="https://static.vecteezy.com/system/resources/thumbnails/000/565/396/small/07022019-15.jpg" align="center" width="350" height="200"></p>
-<a href="#"><h1 align="center">Predicautionary</h1></a>
+<a href="#"><h1 align="center">Predicautionar</h1></a>
 <h4 align="center">Keeps your health up-to-date</h4>
 
 ## Live Links
