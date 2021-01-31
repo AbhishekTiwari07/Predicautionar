@@ -34,7 +34,7 @@ function initializeClock(id, endtime) {
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
-    if(t.total >=23*3600+40*60 && counter==0){
+    if(t.total >=0 && counter==0){
     var templateParams = {
         email: 'abhishekt2024@gmail.com',
         user: 'Carlo',
@@ -43,8 +43,8 @@ function initializeClock(id, endtime) {
         message: 'No activity by user has been made in past 24 hr'
     };
     
-    const serviceID = 'service_dck355a';
-    const templateID = 'template_pzxagpf';
+    const serviceID = 'service_tvqz9jt';
+    const templateID = 'template_rocssba';
 
     emailjs.send(serviceID,templateID, templateParams)
     .then(function(response) {
@@ -61,8 +61,8 @@ function initializeClock(id, endtime) {
         from_name: 'Predicautionar',
         message: 'Remainder! kindly login to your account.Only 12 hours left :)'
       }
-      const serviceID = 'service_dck355a';
-      const templateID = 'template_pzxagpf';
+      const serviceID = 'service_tvqz9jt';
+      const templateID = 'template_rocssba';
       emailjs.send(serviceID,templateID, templateParams)
       .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
@@ -78,6 +78,8 @@ function initializeClock(id, endtime) {
         from_name: 'Predicautionar',
         message: 'Time for medicine :)'
     }
+    const serviceID = 'service_tvqz9jt';
+    const templateID = 'template_rocssba';
     emailjs.send(serviceID,templateID, templateParams)
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
@@ -93,8 +95,8 @@ function initializeClock(id, endtime) {
         from_name: 'Predicautionar',
         message: 'Time for medicine :)'
     }
-    const serviceID = 'service_dck355a';
-    const templateID = 'template_pzxagpf';
+    const serviceID = 'service_tvqz9jt';
+    const templateID = 'template_rocssba';
 
     emailjs.send(serviceID,templateID, templateParams)
     .then(function(response) {
@@ -111,8 +113,8 @@ function initializeClock(id, endtime) {
         from_name: 'Predicautionar',
         message: 'Time for medicine :)'
     }
-    const serviceID = 'service_dck355a';
-    const templateID = 'template_pzxagpf';
+    const serviceID = 'service_tvqz9jt';
+    const templateID = 'template_rocssba';
 
     emailjs.send(serviceID,templateID, templateParams)
     .then(function(response) {

@@ -26,6 +26,10 @@ app.get('/heart',(req,res)=>{
     res.render('heart')
 })
 
+app.get('/quiz',(req,res)=>{
+    res.render('quiz')
+})
+
 app.get('/diabetes',(req,res)=>{
     res.render('dib')
 })
