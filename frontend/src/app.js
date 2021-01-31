@@ -14,6 +14,10 @@ app.set('view engine', 'hbs')
 
 app.use(express.static(dirPublic))
 
+app.get('/home',(req,res)=>{
+    res.render('homePage')
+})
+
 app.get('',(req,res)=>{
     res.render('home')
 })

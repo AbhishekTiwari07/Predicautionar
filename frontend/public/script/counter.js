@@ -34,21 +34,24 @@ function initializeClock(id, endtime) {
     minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
     secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
 
-    if(t.total >= 23*3600+60*60 && counter == 0){
-      // function sendEmail() { 
-      //   Email.send({ 
-      //     Host: "smtp.gmail.com", 
-      //     Username: "sender@email_address.com", 
-      //     Password: "Enter your password", 
-      //     To: 'receiver@email_address.com', 
-      //     From: "sender@email_address.com", 
-      //     Subject: "Sending Email using javascript", 
-      //     Body: "Well that was easy!!", 
-      //   }) 
-      //     .then(function (message) { 
-      //       alert("mail sent successfully") 
-      //     }); 
-      // }
+    if(t.total >0 ){
+    var templateParams = {
+        email: 'abhishekt2024@gmail.com',
+        user: 'Carlo',
+        to_name: 'James',
+        from_name: 'Pred',
+        message: 'No activity by user has been made in past 24 hr'
+    };
+    
+    const serviceID = 'service_dck355a';
+    const templateID = 'template_pzxagpf';
+
+    emailjs.send(serviceID,templateID, templateParams)
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });
     }
     
     if (t.total <= 0) {
