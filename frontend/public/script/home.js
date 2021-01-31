@@ -22,6 +22,18 @@ const login = ()=> {
         const grid = document.querySelector('.grids')
         grid.style.display = "grid"
     }
+    else if(name.value === "abhishek" && pass.value === "") {
+      const log = document.querySelector('.login')
+      log.style.display = "none"
+      const grid = document.querySelector('.grids')
+      grid.style.display = "grid"
+  }
+  else if(name.value === "saitama" && pass.value === "<3") {
+    const log = document.querySelector('.login')
+    log.style.display = "none"
+    const grid = document.querySelector('.grids')
+    grid.style.display = "grid"
+  }
     else alert("Incorrect creditials")
 }
 

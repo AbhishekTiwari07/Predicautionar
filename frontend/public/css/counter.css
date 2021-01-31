@@ -20,6 +20,12 @@ h1{
   font-size: 40px;
   margin: 40px 0px 20px;
 }
+h2{
+  color: #396;
+  font-weight: 100;
+  font-size: 25px;
+  margin: 40px 0px 20px;
+}
 
 #clockdiv{
   font-family: sans-serif;
@@ -42,6 +48,13 @@ h1{
   border-radius: 3px;
   background: #00816A;
   display: inline-block;
+}
+
+a{
+  color: white;
+  padding: 10px 0 0 0;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .smalltext{

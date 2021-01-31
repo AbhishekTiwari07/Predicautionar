@@ -8,9 +8,9 @@ const fetchinfo = (obj)=>{
             else {
                 console.log(data.result)
                 if(data.result==0)
-                    result.innerHTML = '<p>No Risk</p>'
+                    result.innerHTML = '<p style="font-size:200%;color:green">No Risk</p>'
                 else if(data.result==1){
-                    result.innerHTML = '<p>Risk</p>'
+                    result.innerHTML = '<p style="font-size:200%;color:red">Risk</p>'
                 }
             }
         })
