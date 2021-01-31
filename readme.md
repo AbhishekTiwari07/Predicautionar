@@ -3,8 +3,8 @@
 <h4 align="center">Keeps your health up-to-date</h4>
 
 ## Live Links
-- [📽  Project Demo](#)
-- [💻 Web Platform](#)   
+- [📽  Project Demo](https://youtu.be/hW2mXxDrdcg)
+- [💻 Web Platform](#) NA   
 - [📹  Presentation File](https://docs.google.com/presentation/d/18cDSHh3flbx7s8KOXpJ1MhzAo5HYp4RVIXPV7voxsXI/edit#slide=id.g60166f7374_0_9)
 
 
@@ -38,6 +38,8 @@ Living alone has become difficult, since the advancement in recent technologies,
 <details>
 	<summary>Frontend</summary>
 		<ul>
+			<li>Handlebars</li>
+			<li>Bootstrap</li>
 			<li>Javascript</li>
 		</ul>
 </details>
