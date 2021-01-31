@@ -53,5 +53,5 @@ Living alone has become difficult, since the advancement in recent technologies,
 
 <p>References</p>
 <p><a href="https://www.kaggle.com/cdabakoglu/heart-disease-classifications-machine-learning">Kaggle Notebook for Heart disease predictor</a></p>
-<p><a href="https://www.kaggle.com/cdabakoglu/heart-disease-classifications-machine-learning">Kaggle Notebook for Diabetes Predictor</a></p>
+<p><a href="https://www.kaggle.com/paultimothymooney/predict-diabetes-from-medical-records">Kaggle Notebook for Diabetes Predictor</a></p>
 
