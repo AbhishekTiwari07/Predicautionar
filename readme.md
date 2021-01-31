@@ -29,9 +29,9 @@ Living alone has become difficult, since the advancement in recent technologies,
 		<ul>
 			<li>Django - Flask</li>
 			<li>Google Map API<li>
-            <li>NodeJS<li>
-            <li>EmailJS<li>
-            <li>Machine Learning<li>
+            		<li>NodeJS<li>
+            		<li>EmailJS<li>
+            		<li>Machine Learning<li>
 		</ul>
 </details>
 
